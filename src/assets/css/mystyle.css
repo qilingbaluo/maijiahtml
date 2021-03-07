@@ -1,0 +1,169 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.el-col-12 {
+  position: absolute;
+  top: 110px;
+  width: 210px;
+}
+
+.el-menu-vertical-demo {
+  height: 780px;
+}
+
+.el-menu-item {
+  margin-top: 50px;
+}
+
+.el-menu-item span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#top-menu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+#content {
+  position: absolute;
+  display: flex;
+  left: 210px;
+  top: 110px;
+  width: 1680px;
+  min-height: 790px;
+}
+
+#foodList {
+  display: block;
+  position: absolute;
+  height: 700px;
+  width: 1300px;
+  top: 20px;
+}
+
+#foodList span {
+  position: absolute;
+  font-size: 25px;
+  left: 10px;
+  font-weight: 600;
+}
+
+.food-list {
+  position: absolute;
+  float: left;
+  width: 1100px;
+  height: 100px;
+  top: 80px;
+}
+
+.el-image__inner {
+  width: 100px;
+  height: 100px;
+}
+
+.shangpin {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.footpic {
+  display: inline;
+  width: 100px;
+  margin-left: 50px;
+}
+
+.food-title {
+  display: inline;
+  width: 200px;
+  line-height: 100px;
+  float: left;
+  left: 300px;
+  position: absolute;
+}
+
+.caozuo {
+  position: absolute;
+  display: inline;
+  left: 1200px;
+  width: 100px;
+  line-height: 120px;
+}
+
+#addbtn {
+  position: absolute;
+  left: 1200px;
+  top: 0;
+}
+
+.el-button--primary {
+  width: 100px;
+  height: 40px;
+}
+
+.el-button--primary span {
+  line-height: 0px;
+}
+
+#commodity-form {
+  width: 1500px;
+  height: 600px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  margin: 60px auto;
+}
+
+.commodity-msg {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.el-upload-list--picture .el-upload-list__item {
+  height: 93px;
+}
+
+.el-upload-list__item {
+  width: 4%;
+}
+
+.el-form-item__label {
+  font-size: 25px;
+}
+
+.commodity-item {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 1000px;
+  top: 150px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
+
+#mailogin {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  left: 650px;
+  top: 200px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#mairegist {
+  position: absolute;
+  left: 650px;
+  top: 180px;
+  width: 500px;
+  height: 600px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
